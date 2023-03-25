@@ -1,0 +1,43 @@
+<form class="row m-5 ">
+  <div class="mb-3 col-6 my-4">
+    <label class="form-label">Nome</label>
+    <input type="text" class="form-control">
+  </div>
+  <div class="mb-3 col-6 my-4">
+    <label class="form-label">Carga horária</label>
+    <input type="number" class="form-control">
+  </div>
+  <div class="mb-3 col-12 my-4">
+    <label class="form-label">Escola</label>
+    <input type="text" class="form-control">
+  </div>
+  <div class="mb-3 col-6 my-4">
+    <p>Professor</p>
+    <select class="form-select" aria-label="Default select ">
+      <option>Escolha um nome..</option>
+      <option value="0">Otávio</option>
+      <option value="1">Carla</option>
+      <option value="2">Leandro</option>
+      <option value="3">Cláudia</option>
+    </select>
+  </div>
+  <div class="mb-3 col-6 my-4">
+    <p>Matéria opcional?</p>
+    <div class="form-check">
+      <input class="form-check-input" type="radio" name="radio" id="radio1">
+      <label class="form-check-label" for="radio1">
+        Sim
+      </label>
+    </div>
+    <div class="form-check">
+      <input class="form-check-input" type="radio" name="radio" id="radio2">
+      <label class="form-check-label" for="radio2">
+        Não
+      </label>
+    </div>
+  </div>
+
+  <button class="btn btn-primary my-4" (click)="$event.preventDefault()" data-bs-toggle="modal"
+    data-bs-target="#modalMaterias">Enviar formulário</button>
+</form>
+<modal></modal>
