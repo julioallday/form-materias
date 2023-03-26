@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
 })
 export class HomeComponent {
   getInputText(event: any) {
-    console.log(event);
+    console.log(event.target.value);
     
   }
 }
