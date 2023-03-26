@@ -7,8 +7,11 @@ export class LoginService {
   constructor() {}
   setStorage(chave: string, valor: string) {
     localStorage.setItem(chave, valor);
-    const textObj = JSON.stringify(localStorage.getItem(chave))
-    const obj = JSON.parse(textObj)
-    console.log(obj);
+    console.log(this.getStorage(chave));
+  }
+  getStorage(chave: string) {
+    const textObj = JSON.stringify(localStorage.getItem(chave));
+    const obj = JSON.parse(textObj);
+    return obj;
   }
 }

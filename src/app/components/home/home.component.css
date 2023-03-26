@@ -1,0 +1,10 @@
+.altura-padrao{
+    min-height: 1000px;
+}
+
+.margem-y-grande {
+  margin: 250px 0;
+}
+.margem-y-pequena {
+  margin: 150px 0 350px 0;
+}
