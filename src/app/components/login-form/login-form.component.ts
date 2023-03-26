@@ -14,5 +14,7 @@ export class LoginFormComponent {
       senha: event.target.parentNode[1].value,
     };
     this.loginService.setStorage('login', JSON.stringify(conta));
+   
+    
   }
 }
