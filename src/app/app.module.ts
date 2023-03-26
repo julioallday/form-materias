@@ -10,6 +10,7 @@ import { InputFormComponent } from './components/input-form/input-form.component
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { HomeComponent } from './components/home/home.component';
 import { PesquisarComponent } from './components/pesquisar/pesquisar.component';
+import { LoginFormComponent } from './components/login-form/login-form.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +22,7 @@ import { PesquisarComponent } from './components/pesquisar/pesquisar.component';
     NavbarComponent,
     HomeComponent,
     PesquisarComponent,
+    LoginFormComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],

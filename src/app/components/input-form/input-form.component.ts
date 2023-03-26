@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'input-form',
@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./input-form.component.css']
 })
 export class InputFormComponent {
-
+  @Input() etiqueta = "";
+  @Input() tipo = "";
 }
