@@ -7,7 +7,9 @@ import { FormMateriasComponent } from './components/form-materias/form-materias.
 import { ModalComponent } from './components/modal/modal.component';
 import { CardComponent } from './components/card/card.component';
 import { InputFormComponent } from './components/input-form/input-form.component';
-import { LoginFormComponent } from './components/login-form/login-form.component';
+import { NavbarComponent } from './components/navbar/navbar.component';
+import { HomeComponent } from './components/home/home.component';
+import { PesquisarComponent } from './components/pesquisar/pesquisar.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import { LoginFormComponent } from './components/login-form/login-form.component
     ModalComponent,
     CardComponent,
     InputFormComponent,
-    LoginFormComponent,
+    NavbarComponent,
+    HomeComponent,
+    PesquisarComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
