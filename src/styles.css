@@ -1,12 +1,36 @@
-:root{
-    --botao: #263173
+:root {
+  --botao: #263173;
 }
+/* https://source.unsplash.com/random */
+.parallax {
+  /* The image used */
+  background-image: url("https://i.pinimg.com/originals/0a/4d/cb/0a4dcb92fa2d3c601b58d72720d6bec4.jpg") !important;
 
-body{
-    background-color: #0000004c !important;
+  /* Set a specific height */
+  min-height: 500px;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-button{
-    background-color: var(--botao) !important;
+body {
+  /* The image used */
+  background-image: url("https://free4kwallpapers.com/uploads/originals/2021/07/11/code-generated-wallpaper.png") !important;
 
- 
+  /* Set a specific height */
+  min-height: 500px;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+button {
+  background-color: var(--botao) !important;
+}
+img{
+  border: 1px solid gold;
+  border-radius: 8px;
 }

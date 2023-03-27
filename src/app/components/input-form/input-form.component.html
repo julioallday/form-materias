@@ -1,3 +1,3 @@
 
-    <label class="form-label">{{ etiqueta }}</label>
-    <input [type]="tipo" class="form-control" required>
+    <label class="form-label {{ classes }}">{{ etiqueta }}</label>
+    <input [type]="tipo" class="form-control" [placeholder]="mensagemEspacoReservado" required>

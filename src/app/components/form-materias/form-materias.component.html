@@ -1,14 +1,14 @@
-<form class="row w-50 bg-light mx-auto border border-secondary rounded p-2 m-5" id="cadastrar-materias">
-  <div class="mb-3 col-6 my-4">
-    <input-form etiqueta="Nome:" tipo="text"></input-form>
+<form class="row parallax w-50 bg-light mx-auto border border-secondary rounded p-2 m-5" id="cadastrar-materias">
+  <div class="mb-3 col-6 my-4 pb-2">
+    <input-form etiqueta="Nome:" tipo="text" classes="fs-4 text-white"  mensagemEspacoReservado="Digite seu nome"></input-form>
   </div>
   <div class="mb-3 col-6 my-4">
-    <input-form etiqueta="Carga horária de horas aula:" tipo="number"></input-form>
+    <input-form etiqueta="Carga de horas aula:" tipo="number" classes="fs-4 text-white"  mensagemEspacoReservado="Digite quantas horas"></input-form>
   </div>
-  <div class="mb-3 col-12 my-4">
-    <input-form etiqueta="Escola:" tipo="text"></input-form>
+  <div class="mb-3 col-12 my-4 pb-2">
+    <input-form etiqueta="Escola:" tipo="text" classes="fs-4 text-white"  mensagemEspacoReservado="Digite o nome da instituição"></input-form>
   </div>
-  <div class="mb-3 col-6 my-4">
+  <div class="mb-3 col-6 my-4 fs-4 text-white">
     <p>Professor:</p>
     <select class="form-select" aria-label="Default select">
       <option>Escolha um nome..</option>
@@ -18,8 +18,8 @@
       <option value="3">Cláudia</option>
     </select>
   </div>
-  <div class="mb-3 col-6 my-4">
-    <p>Matéria opcional?</p>
+  <div class="mb-3 col-6 my-4 fs-4 text-white">
+    <p>Matéria é opcional?</p>
     <div class="form-check">
       <input class="form-check-input" type="radio" name="radio" id="radio1">
       <label class="form-check-label" for="radio1">
@@ -34,7 +34,7 @@
     </div>
   </div>
 
-  <button class="btn my-4 botao-cor-padrao text-light"  data-bs-toggle="modal"
-    data-bs-target="#modalMaterias">Enviar formulário</button>
+  <button class="btn my-4 botao-cor-padrao text-light" data-bs-toggle="modal" data-bs-target="#modalMaterias">Enviar
+    formulário</button>
 </form>
 <modal resultado="Sucesso!" mensagem="Formulário enviado com sucesso!"></modal>

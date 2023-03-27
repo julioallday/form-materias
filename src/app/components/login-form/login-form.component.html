@@ -1,18 +1,18 @@
-<section class="d-flex my-5" id="login">
+<section class="d-flex flex-row-reverse my-5" id="login">
     <div class="row mx-auto my-auto w-50">
         <div class="col-12">
             <img src="https://source.unsplash.com/500x500/?signin" alt="">
         </div>
     </div>
-    <form (submit)="$event.preventDefault()" class="row w-50 h-50 my-auto mx-5 py-5">
-        <h1 class="text-center">Faça login com sua conta</h1>
+    <form (submit)="$event.preventDefault()" class=" parallax rounded-2 row w-50 h-50 my-auto mx-5 py-5">
+        <h1 class="text-center text-white">Faça login com sua conta</h1>
         <div class="mb-3 col-12 my-4">
-            <input-form etiqueta="Login" tipo="email"></input-form>
+            <input-form etiqueta="Login" tipo="email" classes="text-white fs-5"  mensagemEspacoReservado="Digite seu e-mail"></input-form>
         </div>
         <div class="mb-3 col-12 my-4">
-            <input-form etiqueta="Senha" tipo="password"></input-form>
+            <input-form etiqueta="Senha" tipo="password" classes="text-white fs-5"  mensagemEspacoReservado="Digite a senha"></input-form>
         </div>
         <button (click)="setConta($event)" class="btn text-light my-4">Enviar formulário</button>
-        <h5 class="form-text text-center">Veja o resultado no localStorage.</h5>
+        <h5 class="form-text text-center fs-6">Veja o resultado no localStorage.</h5>
     </form>
 </section>
